@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Fresh Food
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="OIP.jpeg">
+</head>
+
+<body>
+    <!-- MOBILE NAV -->
+    <div class="mb-nav">
+        <div class="mb-move-item"></div>
+        <div class="mb-nav-item active">
+            <a href="#home">
+                <i class="bx bxs-home"></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#about">
+                <i class='bx bxs-wink-smile'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#food-menu-section">
+                <i class='bx bxs-food-menu'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#testimonial">
+                <i class='bx bxs-comment-detail'></i>
+            </a>
+        </div>
+    </div>
+    <!-- END MOBILE NAV -->
+    <!-- BACK TO TOP BTN -->
+    <a href="#home" class="back-to-top">
+        <i class="bx bxs-to-top"></i>
+    </a>
+    <!-- END BACK TO TOP BTN -->
+    <!-- TOP NAVIGATION -->
+    <div class="nav">
+        <div class="menu-wrap">
+            <a href="#home">
+                <div class="logo">
+                    Freshfood
+                </div>
+            </a>
+            <div class="menu h-xs">
+                <a href="#home">
+                    <div class="menu-item active">
+                        Home
+                    </div>
+                </a>
+                <a href="#about">
+                    <div class="menu-item">
+                        About
+                    </div>
+                </a>
+                <a href="#food-menu-section">
+                    <div class="menu-item">
+                        Menu
+                    </div>
+                </a>
+                <a href="#testimonial">
+                    <div class="menu-item">
+                        Review
+                    </div>
+                </a>
+            </div>
+            <div class="right-menu">
+                <div class="cart-btn">
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END TOP NAVIGATION -->
+    <!-- SECTION HOME -->
+    <section id="home" class="fullheight align-items-center bg-img bg-img-fixed"
+        style="background-image: url(assets/brooke-lark-08bOYnH_r_E-unsplash.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <div class="slogan">
+                        <h1 class="left-to-right play-on-scroll">
+                            Freshfood
+                        </h1>
+                        <p class="left-to-right play-on-scroll delay-2">
+                            Our passion for food is reflected in every dish we create, using only the freshest ingredients and time-honored recipes. 
+                            Whether you’re a food enthusiast or just looking for a delightful dining experience, we invite you to explore our menu and savor the taste of excellence.
+                        </p>
+                        <div class="left-to-right play-on-scroll delay-4">
+                            <button>
+                                Order now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION HOME -->
+    <!-- SECION ABOUT -->
+    <section class="about fullheight align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-7 h-xs">
+                    <img src="assets/dan-gold-4_jhDO54BYg-unsplash.jpg" alt=""
+                        class="fullwidth left-to-right play-on-scroll">
+                </div>
+                <div class="col-5 col-xs-12 align-items-center">
+                    <div class="about-slogan right-to-left play-on-scroll">
+                        <h3>
+                            <span class="primary-color">We</span> create <span class="primary-color">delicious</span>
+                            memories for <span class="primary-color">you</span>
+                        </h3>
+                        <p>
+                            Our menu is a celebration of flavors, featuring a diverse range of dishes that cater to all tastes and preferences. 
+                            Each dish is prepared with the finest ingredients and a touch of love, 
+                            ensuring that every bite is a delightful experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECION ABOUT -->
+    <!-- FOOD MENU SECTION -->
+    <section class="align-items-center bg-img bg-img-fixed" id="food-menu-section"
+        style="background-image: url(assets/katherine-chase-4MMK78S7eyk-unsplash.jpg);">
+        <div class="container">
+            <div class="food-menu">
+                <h1>
+                    What will <span class="primary-color">you</span> eat today?
+                </h1>
+                <p>
+                   we believe that every meal is more than just food on a plate,
+                   it’s an experience that brings people together and creates lasting memories.
+                </p>
+                <div class="food-category">
+                    <div class="zoom play-on-scroll">
+                        <button class="active" data-food-type="all">
+                            All food
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-2">
+                        <button data-food-type="salad">
+                            Egg Salad
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-4">
+                        <button data-food-type="Lorem ipsum">
+                            Veg rice
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-6">
+                        <button data-food-type="ipsum">
+                            Veg Noodles
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-8">
+                        <button data-food-type="dolor">
+                            Panner Rice
+                        </button>
+                    </div>
+                </div>
+
+                <div class="food-item-wrap all">
+                    <div class="food-item salad-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url(assets/anh-nguyen-kcA-c3f_3FE-unsplash.jpg);"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Egg Salad
+                                    </h3>
+                                    <span>
+                                        ₹180
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class="bx bx-cart-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item lorem-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/vegetable-ric.webp');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Veg rice
+                                    </h3>
+                                    <span>
+                                        ₹110
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item ipsum-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/veg\ noodles..webp');">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Veg Noodles
+                                    </h3>
+                                    <span>
+                                        ₹200
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item lorem-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/Paneer-Pulao-1-1-1200x1800.webp');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Panner rice
+                                    </h3>
+                                    <span>
+                                        ₹120
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item dolor-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/Paneer-Pulao-1-1-1200x1800.webp');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Panner rice
+                                    </h3>
+                                    <span>
+                                        ₹120
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item salad-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/anh-nguyen-kcA-c3f_3FE-unsplash.jpg');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Special Salad with extra eggs
+                                    </h3>
+                                    <span>
+                                        ₹300
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item lorem-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/Paneer-Pulao-1-1-1200x1800.webp');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Panner rice
+                                    </h3>
+                                    <span>
+                                        ₹210
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item dolor-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"
+                                    style="background-image: url('assets/Paneer-Pulao-1-1-1200x1800.webp');"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Special Panner rice
+                                    </h3>
+                                    <span>
+                                        ₹260
+                                    </span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOD MENU SECTION -->
+    <!-- TESTIMONIAL SECTION -->
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-2">
+                        <div class="review-content">
+                            <p>
+                                Every dish was bursting with flavor and you could really taste the quality of the ingredients. It’s clear that a lot of care goes into selecting and preparing the food here. 
+                                I can’t wait to come back and try more from the menu!”
+                            </p>
+                            <div class="review-img bg-img"
+                                style="background-image: url(assets/close-up-portrait-cute-young-woman-holding-textbook-colored-pencils-posing-studio-isolated-pink_176532-9674.jpg);">
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <h3>
+                                Lakshmi
+                            </h3>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="zoom play-on-scroll">
+                        <div class="review-wrap active">
+                            <div class="review-content">
+                                <p>
+                                    “I had an amazing dining experience at fresh food.The freshness of the ingredients was evident in every bite. The vegetables were crisp, the meats were tender, and the flavors were incredibly vibrant. It’s rare to find a place that prioritizes quality and freshness like this.
+                                     Highly recommend to anyone looking for a truly delightful meal!”
+                                </p>
+                                <div class="review-img bg-img"
+                                    style="background-image: url(assets/michael-dam-mEZ3PoFGs_k-unsplash.jpg);">
+                                </div>
+                            </div>
+                            <div class="review-info">
+                                <h3>
+                                    Meenalakshmi
+                                </h3>
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-4">
+                        <div class="review-content">
+                            <p>
+                                It absolute delight! The freshness of the food truly stood out. Each dish was prepared with such care and attention to detail. The flavors were vibrant and the ingredients tasted incredibly fresh. It’s clear that quality is a top priority here. 
+                                I highly recommend this place to anyone who appreciates good, fresh food!
+                            </p>
+                            <div class="review-img bg-img"
+                                style="background-image: url(assets/portrait-happy-young-man_171337-21716.jpg);">
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <h3>
+                                Vignesh
+                            </h3>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END TESTIMONIAL SECTION -->
+    <!-- FOOTER SECTION -->
+    <section class="footer bg-img" style="background-image: url(assets/nordwood-themes-pYWrdKO5ksI-unsplash.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <h1>
+                        Freshfood
+                    </h1>
+                    <br>
+                    <p>we take pride in offering the freshest food that not only tastes great but also nourishes your body. Our commitment to quality starts with sourcing the finest ingredients from trusted local farmers and suppliers. 
+                        We believe that fresh food is the cornerstone of a healthy and delicious meal.</p>
+                    <br>
+                    <p>Email:  praveenkumarm7871@gmail.com</p>
+                    <p>Phone:  +9178718 93971</p>
+                    <p>Website: freshfood.com</p>
+                </div>
+                <div class="col-2 col-xs-12">
+                    <h1>
+                        About us
+                    </h1>
+                    <br>
+                    <p>
+                        <a href="#">
+                            Delicious
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            Menu
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            Freshness and quality
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            Health and Wellness
+                        </a>
+                    </p>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <h1>
+                        Subscribe & media
+                    </h1>
+                    <br>
+                    <p>Stay connected with us,by subscribing to our newsletter! Get the latest updates on our menu, special offers, and exclusive events delivered straight to your inbox. By subscribing, you’ll be the first to know about our seasonal dishes, chef’s specials, and much more. 
+                        Don’t miss out on the delicious news—subscribe today!</p>
+                    <div class="input-group">
+                        <input type="text" placeholder="Enter your email">
+                        <button>
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOTER SECTION -->
+
+    <script src="index.js"></script>
+</body>
+
+</html>
